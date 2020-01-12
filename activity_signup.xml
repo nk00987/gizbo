@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:background="@drawable/top_background_0"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/layoutInput"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/white"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+
+                        <!--<android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:theme="@style/TextLabe2"
+
+
+                            >-->
+
+                        <com.genxcloudsuite.smartgatei.customFonts.Edittext_Montserrat_Regular
+                            android:id="@+id/id_firstname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="USER NAME"
+                            android:inputType="textCapWords"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/themeGray"
+                            android:textSize="12dp"
+
+                            android:background="@drawable/bgamount_gray_outline_white"
+
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:digits="abcdefghijklmnopqrstuvwxyz"
+
+                            android:drawableRight="@drawable/new_full_name"
+                            />
+
+
+                        <!--</android.support.design.widget.TextInputLayout>
+
+
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:theme="@style/TextLabe2">-->
+
+                        <com.genxcloudsuite.smartgatei.customFonts.Edittext_Montserrat_Regular
+                            android:id="@+id/id_mobile"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:hint="MOBILE NUMBER"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/themeGray"
+                            android:textSize="12dp"
+
+                            android:background="@drawable/bgamount_gray_outline_white"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+
+                            android:drawableRight="@drawable/new_mobile_number"
+
+
+                            />
+
+                        <!-- </android.support.design.widget.TextInputLayout>
+
+                         <android.support.design.widget.TextInputLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:theme="@style/TextLabe2">-->
+
+                        <com.genxcloudsuite.smartgatei.customFonts.Edittext_Montserrat_Regular
+                            android:id="@+id/id_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/bgamount_gray_outline_white"
+
+                            android:hint="EMAIL ID"
+                            android:inputType="textEmailAddress"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"                        android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/themeGray"
+                            android:textSize="12dp"
+
+                            android:drawableRight="@drawable/new_email_id"
+
+                            />
+
+                        <!--</android.support.design.widget.TextInputLayout>
+
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:theme="@style/TextLabe2">-->
+
+                        <com.genxcloudsuite.smartgatei.customFonts.Edittext_Montserrat_Regular
+                            android:id="@+id/id_password"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:hint="PASSWORD"
+                            android:inputType="textPassword"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/themeGray"
+                            android:textSize="12dp"
+                            android:background="@drawable/bgamount_gray_outline_white"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+
+
+                            android:drawableRight="@drawable/new_password"
+
+                            />
+
+                        <!-- </android.support.design.widget.TextInputLayout>
+
+
+
+
+                         <android.support.design.widget.TextInputLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:theme="@style/TextLabe2">-->
+
+                        <com.genxcloudsuite.smartgatei.customFonts.Edittext_Montserrat_Regular
+                            android:id="@+id/id_retype_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:hint="CONFIRM PASSWORD"
+                            android:inputType="textPassword"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/themeGray"
+                            android:textSize="12dp"
+
+                            android:background="@drawable/bgamount_gray_outline_white"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+
+
+                            android:drawableRight="@drawable/new_password"
+
+                            />
+
+                        <!--  </android.support.design.widget.TextInputLayout>-->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp">
+
+
+                            <com.genxcloudsuite.smartgatei.customFonts.Checkbox_Montserrat_Regular
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="I have read and agreed to the "
+                                android:textSize="9dp"
+                                android:id="@+id/id_checkbox"
+                                android:theme="@style/WhiteCheck"
+                                android:textColor="@color/themePurple"
+                                android:buttonTint="@color/themePurple"
+
+
+
+                                />
+
+                            <com.genxcloudsuite.smartgatei.customFonts.Montserrat_Regular
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Terms and Conditions."
+                                android:textSize="9dp"
+                                android:textColor="@color/icon_color"/>
+
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+                <com.genxcloudsuite.smartgatei.customFonts.Nbutton_Montserrat_Bold
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SIGNUP"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:background="@drawable/bd_gradient_new"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:textSize="14dp"
+                    android:id="@+id/id_createaccount"
+
+
+                    />
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/id_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/back"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <com.genxcloudsuite.smartgatei.customFonts.Montserrat_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/id_back"
+            android:padding="10dp"
+            android:text="Signup"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/signup_icon"
+
+                android:layout_gravity="center"
+                />
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
